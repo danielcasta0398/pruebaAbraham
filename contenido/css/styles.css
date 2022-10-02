@@ -1,0 +1,195 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: open sans;
+}
+
+
+.contenedor{
+	padding: 60px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+/*Titulo*/
+.titulo{
+ 	color: #000;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+
+/*Seccion de busqueda*/
+nav{
+	text-align: right;
+	padding: 30px 50px 0 0;
+}
+
+nav > a{
+	color: #0F2027;
+	text-decoration: underline;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+nav > a:hover{
+	text-decoration: underline;
+}
+
+/*Sigueme en insta*/
+header .textos-header{
+	display: flex;
+	height: 150px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+/*primer contenedor*/
+
+
+.contenedor-sobremi{
+display: flex;
+justify-content: space-evenly;
+}
+
+.imagen-about-us{
+	width: 40%;
+	height: 40%;
+	border-radius: 50px;
+}
+
+.contenedor-sobremi .contenido-textos{
+	width: 48%;
+}
+
+.contenido-textos h3{
+margin-bottom: 15px;
+}
+
+.contenido-textos h3 span{
+	background: #ee9ca7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	padding: 2px;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+	margin-right: 5px;
+}
+
+.contenido-textos p{
+	padding: 0px 0px 30px 15px;
+}
+
+
+/*Mis Hobbies*/
+.hobbies{
+	background: #FFDCFD;
+}
+
+
+.imagen{
+	width: auto;
+	height: 150px;
+	display: flex;
+	float: right;
+}
+
+.imagen > img{
+width:auto;
+height: 100%;
+border-radius: 5px;
+margin: 5px;
+clear: right;
+} 
+
+
+/*Contenedor musica*/
+
+.video{
+	width: auto;
+	height: 100%;
+	padding: 5px;
+	float: left;
+}
+
+.video > iframe{
+	width:auto;
+	height: 200px;
+	margin: 8px;
+	clear: left;
+}
+
+
+/*Formulario*/
+.form{
+	padding: 20px;
+	margin: 0 auto;
+	width: 300px;
+}
+
+input, textarea{
+border: 0;
+outline: none;
+width: 280px;
+border-color: #FFC9FC;
+}
+
+.field{
+border: solid 1px #999;
+padding: 10px;
+border-color: #FFC9FC;
+}
+
+.center-content{
+text-align: center;
+}
+
+
+
+/*parte de abajo*/
+footer{
+	width: auto;
+	height: auto;
+	background: #FFC9FC ;
+	padding: 60px 0 30px 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+.contenedor-footer{
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin: auto;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+	text-align: center;
+}
+
+.content-foo h4{
+	color: #fff;
+	border-bottom: 3px solid #fff;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
